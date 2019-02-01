@@ -1,0 +1,22 @@
+// Search
+
+$result = mysql_query("select * from tbl_student");
+while($row=mysql_fetch_array($result)) 
+{
+
+}
+
+
+// Insert
+
+$result = mysql_query("insert into tbl_student (st_name,st_roll,st_age,st_email) values('$_POST[st_name]','$_POST[st_roll]','$_POST[st_age]','$_POST[st_email]') ");
+
+
+// Update
+
+$result = mysql_query("update tbl_student set st_name='$_POST[st_name]',st_roll='$_POST[st_roll]',st_age='$_POST[st_age]',st_email='$_POST[st_email]' where st_id='$id'");
+
+
+// Delete
+
+$result = mysql_query("delete from tbl_student where st_id='$id'");

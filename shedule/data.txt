@@ -1,0 +1,10 @@
+new
+MGT414 25 Industrial Management
+EVE-A 40 36 724900007 SA
+EVE-B 40 39 724900007 SA
+new
+CSE432 23 Computer and Network Security
+EVE-A 40 40 721500038 MRB
+new
+CSE231 28 Microprocessor and Assembly Language
+EVE-A 53 52 710001740 MRA

@@ -1,0 +1,8 @@
+DELETE FROM tb_course WHERE course_title LIKE '%Lab%'  ///deleteing all labs from course_title
+update tb_routine set time='12:30' where time like '%12:30%'; /// update time
+update tb_routine set start_time="15:00"  WHERE start_time="03:00"
+SELECT * FROM `tb_course` WHERE course_id="CSE131"
+SELECT * FROM `tb_course` WHERE batch_no="21"
+INSERT INTO tb_block_room (room_no, status) SELECT room_no,'0' FROM tb_rooms
+INSERT INTO tb_block_course (course_id, section, batch_no, status) SELECT course_id, section, batch_no,'0' FROM tb_course
+update tb_routine set end_time="14:00:00" where start_time="12:30:00"
